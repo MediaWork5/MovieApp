@@ -1,0 +1,37 @@
+.card-item {
+  background: #1a242f;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card-item:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.card-item .card-top {
+  height: 300px;
+}
+
+.card-item .card-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-item .card-bottom {
+  padding: 20px;
+}
+
+.card-item .card-info {
+  color: #ffffff;
+}
+
+.card-item .card-info h4 {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=MovieCard.css.map */
