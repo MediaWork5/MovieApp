@@ -6,7 +6,7 @@ import "./Header.css";
 const Header = () => {
     return (
         <div className='header'>
-            <Link to='/'>
+            <Link to='/MovieApp/'>
                 <div className='logo'>Movie App</div>
             </Link>
             <div className='user-image'>
