@@ -14,7 +14,7 @@ const App = () => {
                 <Header />
                 <div className="container">
                     <Switch>
-                        <Route exact path='/' component={Home} />
+                        <Route exact path='/MovieApp/' component={Home} />
                         <Route  path='/movie/:imdbID' component={MovieDetail} />
                         <Route component={PageNotFound} />
                     </Switch>
